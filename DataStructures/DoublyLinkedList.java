@@ -3,7 +3,7 @@ Implementation of a doubly linked list
 node class for this linked list is below the DoublyLinkedList class
  */
 
-// comment out package to run file by itself
+
 package DataStructures;
 
 class DoublyLinkedList {
