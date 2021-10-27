@@ -1,3 +1,8 @@
+/*
+implements a queue and relevant methods
+uses doubly linked list
+ */
+
 package DataStructures;
 
 public class Queues {
@@ -70,13 +75,6 @@ public class Queues {
         boundedQueue.enqueue("yea");
 
         System.out.println(boundedQueue.peek());
-
-
-
-
-
-
-
 
 
     }
