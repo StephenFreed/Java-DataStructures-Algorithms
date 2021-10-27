@@ -9,13 +9,13 @@ package DataStructures;
 
 import java.util.Objects;
 
-class LinkedList {
+class SinglyLinkedList {
 
     // linked list head instance variable
     public SinglyLinkedNode head;
 
     // linked list constructor with head null
-    public LinkedList() {
+    public SinglyLinkedList() {
         this.head = null;
     }
 
@@ -175,7 +175,7 @@ class LinkedList {
     // main method
     public static void main(String[] args) {
 
-        LinkedList test = new LinkedList();
+        SinglyLinkedList test = new SinglyLinkedList();
 
         test.addToHead("A");
         test.addToTail("B");
