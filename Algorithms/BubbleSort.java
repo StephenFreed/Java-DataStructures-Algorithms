@@ -40,9 +40,9 @@ public class BubbleSort {
 
     // main method
     public static void main(String[] args) {
-        int[] test = {10,20,18,15,43,2,1,6};
-        int[] yeah = bubbleSort(test);
-        System.out.println(Arrays.toString(yeah));
+        int[] testBubbleSort = {10,20,18,15,43,2,1,6};
+        int[] sortedBubbleSort = bubbleSort(testBubbleSort);
+        System.out.println(Arrays.toString(sortedBubbleSort));
     }
 
 }
