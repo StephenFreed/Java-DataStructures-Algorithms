@@ -11,9 +11,9 @@ public class BinarySearch {
     // binary search method implementation
     public static int binarySearch(int[] array, int targetValue) {
         int leftPointerIdx = 0;
-        int rightPointerIdx = array.length;
+        int rightPointerIdx = array.length -1;
 
-        while (leftPointerIdx < rightPointerIdx) {
+        while (leftPointerIdx <= rightPointerIdx) {
             int midIdx = Math.floorDiv(leftPointerIdx + rightPointerIdx, 2);
             int midValue = array[midIdx];
 
@@ -32,7 +32,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] intArray = {1,3,7,9,11,14,22,43,57,63,73,88,89,100,123,142,1732,1894};
-        int target = 73;
+        int target = 63;
         System.out.println(binarySearch(intArray,target));
     }
 }
