@@ -1,10 +1,11 @@
-/*
-Implementation of binary search.
-Returns index of target value from sorted array.
-Returns -1 if target value does not exist in array.
- */
-
 package Algorithms;
+
+/*
+implementation of binary search. must be sorted first.
+returns index of target value from sorted array.
+Returns -1 if target value does not exist in array.
+O(log(n)) Time | O(log(n)) Space
+ */
 
 public class BinarySearch {
 
