@@ -1,10 +1,10 @@
+package CodingProblems;
+
 /*
 given a 2D array rotate the matrix 90 degrees
-the first row in the matrix holds the matrix rows and then columns
+the first row in the matrix holds the matrix rows and columns
 return new matrix
  */
-
-package CodingProblems;
 
 public class RotateMatrix {
     public static void rotate90(int[][] matrix) {

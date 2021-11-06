@@ -1,9 +1,9 @@
+package CodingProblems;
+
 /*
 check if string is pangram
 pangram contains all characters of the alphabet
  */
-
-package CodingProblems;
 
 public class StringIsPangram {
 

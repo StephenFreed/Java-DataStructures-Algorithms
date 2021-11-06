@@ -1,8 +1,8 @@
+package CodingProblems;
+
 /*
 reverse string
  */
-
-package CodingProblems;
 
 public class ReverseString {
 
@@ -21,6 +21,4 @@ public class ReverseString {
         String revTest = "hgfedcba";
         System.out.println(reversedString(revTest));
     }
-
-
 }

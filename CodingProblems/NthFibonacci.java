@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class NthFibonacci {
 
+    // O(2^n) Time | O(n) Space
     public static int recursion(int n) {
         if (n == 2) {
             return 1;
@@ -13,16 +14,15 @@ public class NthFibonacci {
             return 0;
         }
         return recursion(n-1) + recursion(n-2);
-
     }
 
+    // O(n) Time | O(n) Space
     public static int memoization(int n) {
         Map<Integer,Integer> hashMap = new HashMap<>();
         hashMap.put(2,1);
         hashMap.put(1,0);
         return memoization(n, hashMap);
     }
-
     public static int memoization(int n, Map<Integer,Integer> hashMap) {
         if (hashMap.containsKey(n)) {
             return hashMap.get(n);
@@ -34,6 +34,7 @@ public class NthFibonacci {
         }
     }
 
+    // O(n) Time | O(1) Space
     public static int iterating(int n) {
         int[] prevTwo = {0,1};
 

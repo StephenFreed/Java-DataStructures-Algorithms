@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
 
+/*
+finds list of prime numbers up to number input by user
+ */
+
 public class FindPrimeNumbers {
 
     public static void main(String[] args) {

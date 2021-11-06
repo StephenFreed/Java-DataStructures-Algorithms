@@ -1,11 +1,12 @@
+package CodingProblems;
+
 /*
 return the longest palindromic substring in a string
  */
 
-package CodingProblems;
-
 public class LongestPalindromicSubstring {
 
+    // n^3 answer
     public static String longestN3(String string) {
 
         String answer = "";
@@ -36,7 +37,7 @@ public class LongestPalindromicSubstring {
         return answer;
 
     }
-
+    // n^2 answer
     public static String longestN2(String string) {
 
         String answer = String.valueOf(string.charAt(0));

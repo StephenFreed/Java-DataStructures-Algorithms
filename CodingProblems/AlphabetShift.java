@@ -1,9 +1,9 @@
+package CodingProblems;
+
 /*
 given a string of lowercase letters and a key to shift those letters over by that amount
 return new string
  */
-
-package CodingProblems;
 
 public class AlphabetShift {
 
