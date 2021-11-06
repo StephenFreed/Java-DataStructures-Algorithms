@@ -4,7 +4,7 @@ the first row in the matrix holds the matrix rows and then columns
 return new matrix
  */
 
-package Algorithms;
+package CodingProblems;
 
 public class RotateMatrix {
     public static void rotate90(int[][] matrix) {

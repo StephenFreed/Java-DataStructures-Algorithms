@@ -1,4 +1,4 @@
-package Algorithms;
+package CodingProblems;
 
 import java.util.Scanner;
 import java.util.List;

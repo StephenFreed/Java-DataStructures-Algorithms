@@ -1,9 +1,9 @@
 /*
 implementation of bubble sort
-O(n^2) Time | O(1) Space
+O(n^2) DataStructures.Time | O(1) Space
  */
 
-package Algorithms;
+package Algorithms.Sorting;
 
 import java.util.Arrays;
 

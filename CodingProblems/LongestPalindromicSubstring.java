@@ -2,7 +2,7 @@
 return the longest palindromic substring in a string
  */
 
-package Algorithms;
+package CodingProblems;
 
 public class LongestPalindromicSubstring {
 

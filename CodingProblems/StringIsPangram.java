@@ -3,7 +3,7 @@ check if string is pangram
 pangram contains all characters of the alphabet
  */
 
-package Algorithms;
+package CodingProblems;
 
 public class StringIsPangram {
 
