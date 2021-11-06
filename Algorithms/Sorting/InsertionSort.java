@@ -2,6 +2,11 @@ package Algorithms.Sorting;
 
 import java.util.Arrays;
 
+/*
+implementation of insertion sort
+O(n^2) Time | O(1) Space
+ */
+
 public class InsertionSort {
     public static int[] insertionSort(int[] array) {
 

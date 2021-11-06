@@ -2,6 +2,11 @@ package Algorithms.Sorting;
 
 import java.util.Arrays;
 
+/*
+implementation of selection sort
+O(n^2) Time | O(1) Space
+ */
+
 public class SelectionSort {
 
     public static int[] selectionSort(int[] array) {
