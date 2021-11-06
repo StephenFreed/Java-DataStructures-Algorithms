@@ -1,10 +1,14 @@
 package DataStructures;
 
+import java.util.List;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.ArrayDeque;
+
 /*
 test speed of different data structures with same operation
  */
-
-import java.util.*;
 
 public class TimeComparison {
 
@@ -64,7 +68,6 @@ public class TimeComparison {
         elapsedTime = endTime - startTime;
         System.out.println("Deque: " + elapsedTime);
         // =========== LinkedList ===========
-
 
     }
 

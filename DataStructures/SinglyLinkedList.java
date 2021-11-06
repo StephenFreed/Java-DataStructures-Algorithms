@@ -1,13 +1,12 @@
-/*
-implementation of a singly linked list
-node class for this linked list is below the LinkedList class
-many examples of methods you may want to implement
- */
-
-
 package DataStructures;
 
 import java.util.Objects;
+
+/*
+implementation of a singly linked list
+node class for this linked list is below the LinkedList class
+relevant method examples
+ */
 
 class SinglyLinkedList {
 

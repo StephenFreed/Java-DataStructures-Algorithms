@@ -1,9 +1,9 @@
+package DataStructures;
+
 /*
 implements a queue and relevant methods
 uses doubly linked list
  */
-
-package DataStructures;
 
 public class Queues {
 

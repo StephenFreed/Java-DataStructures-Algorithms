@@ -1,13 +1,13 @@
-/*
-examples using Java built in data structures
-and common methods of those structures
- */
-
 package DataStructures;
 
 import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
+
+/*
+examples using Java built in data structures
+and common methods of those structures
+ */
 
 public class BuiltInDataStructures {
 

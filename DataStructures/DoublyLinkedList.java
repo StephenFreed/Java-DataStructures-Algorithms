@@ -1,10 +1,9 @@
+package DataStructures;
+
 /*
-Implementation of a doubly linked list
+implementation of a doubly linked list
 node class for this linked list is below the DoublyLinkedList class
  */
-
-
-package DataStructures;
 
 class DoublyLinkedList {
 
