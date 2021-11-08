@@ -9,7 +9,7 @@ public class ReadFile {
     public static void main(String[] args) {
 
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("/Users/stephenfreed/Projects/Java-DS-Algorithms/src/InputOutput/testFile.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/InputOutput/testFile.txt"));
 
             String line;
             int counter = 1;

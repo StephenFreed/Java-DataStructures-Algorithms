@@ -11,7 +11,7 @@ public class WriteFile {
         String[] lines = {"First Line", "Second Line", "Third Line"};
 
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/stephenfreed/Projects/Java-DS-Algorithms/src/InputOutput/testFile.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("src/InputOutput/testFile.txt"));
 
             for (String line : lines) {
                 writer.write(line + "\n");
