@@ -15,7 +15,6 @@ public class MyThread extends Thread {
                 e.printStackTrace();
             }
             // System.out.println(1/0);
-            Collections
         }
 
         System.out.println("~ Thread #1 Finished ~");

@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         
         // first way to create thread // extends thread class
-        MyTherad thread1 = new MyThread();
+        MyThread thread1 = new MyThread();
 
         // second way to create thread // implements runnable
         MyRunnable runnable1 = new MyRunnable();
