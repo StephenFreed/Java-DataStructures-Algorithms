@@ -7,7 +7,6 @@ import java.util.LinkedList;
 /*
 examples using Java built in data structures
 and common methods of those structures
-test
  */
 
 public class BuiltInDataStructures {
